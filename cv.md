@@ -7,11 +7,11 @@ My name is Maryia Piatrenka. It's OK to call me Marylya or maramirelle.
 - Discord: maramirelle
 
 ## About myself
-I'm a comunicative person. As a teatcher, I've got used to understanding the others even if it's the person I really don't like.
+I'm a comunicative person. As a teatcher, I've got used to understanding the others even if it's the person I don't like.
 
 I'm good at creating magical realms and writing about them. I hope that my unstoppable fantasy will help me in my work.
 
-I do adore studying, especially I'm kin of language studies. Code is also language (even a groop of languages), that's why I'm sure that I'll manage:) 
+I do adore studying, especially I'm keen of language studies. Code is also a language (even a groop of languages), that's why I'm sure that I'll manage:) 
 
 ## My skills
 *Pascal ABC, I guess?*
@@ -38,6 +38,7 @@ alert (`Тебя зовут ${userName}`);
 ## My expirience
 *I have a funny joke on this topic...*
 
+Let this CV be my first project:)
 
 
 ## My education
@@ -45,7 +46,7 @@ I've graduated from BSU, Philological faculty where I've been studying the Belar
 
 I also have a diploma of church choir director (*I'm a real collector of strange educational courses, yeah*).
 
-Now I'm studying programming at RS School.
+Now I'm studying coding at RS School.
 
 ## English level
 Accourding to the test, my English level is C1, but I guess it's something between B2 and C1 actually.
