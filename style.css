@@ -1,6 +1,102 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: Caprasimo;
+    src: url(assets/fonts/Caprasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fasthand;
+    src: url(assets/fonts/Fasthand-Regular.ttf);
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu {
+    font-family: monospace;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+.avatar {
+    width: 15%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+.header {
+     background-color: lightgreen;
+     height: 372px;
+}
+
+
+
+.big-header {
+    font-family: Caprasimo;
+    font-size: 40px;
+    color: rgb(56, 78, 56);
+    text-align: center;
+   
+}
+
+.paragraph-header {
+    font-family: Fasthand;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.green {
+    background-color: lightgreen;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white {
+    background-color: darkseagreen;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header2 {
+    font-family: Caprasimo;
+    font-size: 30px;
+    color: rgb(56, 78, 56);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.paragraph {
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+}
+
+.code {
+    text-align: left;
+}
+
+.last-header {
+    font-family: Fasthand;
+    font-size: 28px;
+    text-align: center;
+}
+
+.footer {
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+    background-color: darkseagreen;
+    color: #ffffff;
+    position: fixed bottom;
 }
