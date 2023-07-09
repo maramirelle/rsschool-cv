@@ -10,23 +10,23 @@
 
 <body>
     <nav class="menu">
-            <a href="#contacts">Contacts</a> | <a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#code">Code</a> | <a href="#expirience">Expirience</a> | <a href="#education">Education</a> | <a href="#languages">Languages</a>
+            <a class="link" href="#contacts">Contacts</a> | <a class="link" href="#about">About</a> | <a class="link" href="#skills">Skills</a> | <a class="link" href="#code">Code</a> | <a class="link" href="#expirience">Expirience</a> | <a class="link" href="#education">Education</a> | <a class="link" href="#languages">Languages</a>
     </nav>
-        <header>
-        <img alt="It's me" src="assets/avatar-small.jpg"
-        <h1 class="big-header">Maryia Piatrenka</h1>
+        <header class="header">
+        <img class="avatar" alt="It's me" src="assets/avatar-small.jpg">
+        <h1 class="big-header"><br><br><br>Maryia Piatrenka</h1>
         <p class="paragraph-header">Future front-end developer</p>
     </header>
 
     <main>      
     
-        <section>
-        <h2 class="header">Let me introduce myself</h2>
+        <section class="white">
+        <h2 class="header2">Let me introduce myself</h2>
         <p class="paragraph">My name is Maryia Piatrenka. It's OK to call me Marylya or maramirelle.</p>
         </section>
 
-        <section id="contacts">
-            <h2 class="header">How to contact me</h2>
+        <section class="green" id="contacts">
+            <h2 class="header2">How to contact me</h2>
             <ul class="paragraph">
                 <li>Email: murli.miaow@gmail.com</li>
                 <li>Discord: maramirelle</li>
@@ -34,38 +34,49 @@
             </ul> 
         </section>
 
-        <section id="about">
-            <h2 class="header">About myself</h2>
+        <section class="white" id="about">
+            <h2 class="header2">About myself</h2>
             <p class="paragraph">I'm a comunicative person. As a teatcher, I've got used to understanding the others even if it's the person I don't like.</p>
             <p class="paragraph">I do adore studying, especially I'm keen of language studies. Code is also a language (even a groop of languages), that's why I'm sure that I'll manage:)</p>
         </section>
 
-        <section id="skills">
-            <h2 class="header">My skills</h2>
-            <p class="paragraph">*Pascal ABC, I guess?*</p>            
+        <section class="green" id="skills">
+            <h2 class="header2">My skills</h2>
+            <p class="paragraph"><i>*Pascal ABC, I guess?*</i></p>            
             <p class="paragraph">Seriously, I'm only at the beginning of my coding journey. I've studied Pascal ABC and HTML basics at school and my teacher said I was good at it.</p>
         </section>
     
-        <section id="code">
-            <h2 class="header">Code example</h2>
-            <p class="paragraph">*just crying*</p>
+        <section class="white" id="code">
+            <h2 class="header2">Code example</h2>
+            <p class="paragraph"><i>*just crying*</i></p>
+            <code>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>!DOCTYPE html</span>&gt;</p>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>html lang="ru"</span>&gt;</p>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>body</span>&gt;</p>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>script</span>&gt;</p>
+                <p class="paragraph code">&nbsp;&nbsp;&nbsp;&nbsp;let userName = prompt('Как тебя зовут?', 'Впиши своё имя сюда');</p>
+                <p class="paragraph code">&nbsp;&nbsp;&nbsp;&nbsp;alert (`Тебя зовут ${userName}`);</p>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>/script</span>&gt;</p>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>/body</span>&gt;</p>
+                <p class="paragraph code">&nbsp;&nbsp;&lt;<span>/html</span>&gt;</p>
+            </code>
         </section>
      
-        <section id="expirience">
-            <h2 class="header">My expirience</h2>
-            <p class="paragraph">*I have a funny joke on this topic...*</p>
+        <section class="green" id="expirience">
+            <h2 class="header2">My expirience</h2>
+            <p class="paragraph"><i>*I have a funny joke on this topic...*</i></p>
             <p class="paragraph">Let this CV be my first project:)</p>
         </section>
 
-        <section id="education">
-            <h2 class="header">My education</h2>
+        <section class="white" id="education">
+            <h2 class="header2">My education</h2>
             <p class="paragraph">I've graduated from BSU, Philological faculty where I've been studying the Belarussian language and literature. My diploma project was about dialect issues of the 17th century literature.</p>
             <p class="paragraph">I also have a diploma of church choir director (*I'm a real collector of strange educational courses, yeah*).</p>
             <p class="paragraph">Now I'm studying front-end development at RS School.</p>
         </section>
         
-        <section id="languages">
-            <h2 class="header">Languages</h2>
+        <section class="green" id="languages">
+            <h2 class="header2">Languages</h2>
             <h3 class="last-header">English</h3>
             <p class="paragraph">Accourding to the test, my English level is C1, but I guess it's somewhere between B2 and C1 actually.</p>
             <h3 class="last-header">Belarussian</h3>
@@ -78,9 +89,10 @@
 
     </main>
 
-    <footer>
-        <a href="https://github.com/maramirelle">My Github</a> | 2023 | RS School
-        <img alt="RS School logo" src="assets/logo.png">
+    <footer class="footer">
+        <a class="link" href="https://github.com/maramirelle">Github</a> | 2023 | <a class="link" href="https://app.rs.school/">RS School</a>
+        <br>
+        <a href="https://app.rs.school/"><img alt="RS School logo" src="assets/logo.png"></a>
     </footer>
 
 
