@@ -8,6 +8,11 @@
     src: url(assets/fonts/Fasthand-Regular.ttf);
 }
 
+.menu {
+    font-family: monospace;
+    font-size: 22px;
+}
+
 .big-header {
     font-family: Caprasimo;
     font-size: 34px;
